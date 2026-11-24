@@ -4,7 +4,7 @@ from __future__ import annotations
 from collections.abc import Iterator
 
 PRESETS = {
-    "Groq (free tier)": ("https://api.groq.com/openai/v1", "llama-3.3-70b-versatile"),
+    "Groq (free tier)": ("https://api.groq.com/openai/v1", "openai/gpt-oss-120b"),
     "OpenAI": ("https://api.openai.com/v1", "gpt-4o-mini"),
     "OpenRouter": ("https://openrouter.ai/api/v1", "meta-llama/llama-3.3-70b-instruct"),
     "Ollama (local)": ("http://localhost:11434/v1", "llama3.2"),
