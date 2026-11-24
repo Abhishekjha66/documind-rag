@@ -2,7 +2,7 @@
 
 Chat with your own PDFs, Word files and text notes. DocuMind uses **Retrieval-Augmented Generation (RAG)**: it finds the most relevant passages in your documents and has an **LLM** answer *only* from them, with inline citations.
 
-**🔗 Live demo:** `https://YOUR-APP-NAME.streamlit.app`  <!-- replace after deploying -->
+**🔗 Live demo:** `https://documind-rag-hijsad3jxqmrvtfajjgngp.streamlit.app/` 
 
 ## Features
 
@@ -39,7 +39,7 @@ Question -> Embedder -> top-k + MMR  <---------+
 ## Run locally
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/documind-rag.git
+git clone https://github.com/Abhishekjha66/documind-rag.git
 cd documind-rag
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
